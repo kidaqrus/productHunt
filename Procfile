@@ -1,1 +1,0 @@
-web: gunicorn productHunt.wsgi --log-file -

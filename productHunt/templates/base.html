@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 {% load static %}
 <html lang="en">
   <head>
@@ -26,6 +26,14 @@
           font-size: 3.5rem;
         }
       }
+        .upvote{
+            width: 160px;
+            
+        }
+        .img{
+            height: 40px;
+            width: 100px;
+        }
     </style>
     <!-- Custom styles for this template -->
     <link href="{% static 'jumbotron.css' %}" rel="stylesheet">
@@ -33,10 +41,10 @@
   <body>
     <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
   <a class="navbar-brand" href="{% url 'home' %}">
-        <img src="{% static 'logo.png' %}" width="30" height="30" class="d-inline-block align-top" />
-      Product Hunt
+        <img src="{% static 'logo.png' %}"  width="30" height="30" class="d-inline-block align-top" />
+      Discuss
         </a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+  <button class="navbar-toggler" type="button" data-toggle="collapse"  data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
